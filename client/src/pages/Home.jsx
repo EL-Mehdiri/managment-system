@@ -1,4 +1,4 @@
-import { Clients, AddClientModele, Projects } from "../components";
+import { Clients, AddClientModele, Projects, AddProjectModal } from "../components";
 
 
 const Home = () => {
@@ -6,6 +6,7 @@ const Home = () => {
         <>
             <div className="d-flex gap-3 mb-4">
                 <AddClientModele />
+                <AddProjectModal />
             </div>
             <Projects />
             <hr />
